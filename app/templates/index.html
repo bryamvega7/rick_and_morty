@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>listado de personajes</h1>
+
+{% for personaje in personaje %}
+{{personaje.nombre}} <br>
+
+{% endfor %}
+
+{% endblock content %}
